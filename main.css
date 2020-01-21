@@ -1,0 +1,62 @@
+/* container
+headerContainer
+contentContainer
+headerContainer
+contentContainer
+navigation
+mainContent
+footerContainer */
+
+/* Main HTML Global Tags  */
+
+body {
+	background-color: #EEE;
+	font-family: helvetica, arial, sans-serif;
+}
+
+
+
+
+/* Class Divisions */
+.headerContainer {
+	background-color: #66ccff;
+	color: white;
+	text-align: center;
+}
+
+.contentContainer {
+	padding: 10px;
+}
+
+.navigation {
+	width: 180px;
+	float: left;
+}
+
+.navigation.selected{
+	font-weight: bold;
+}
+
+.navigation ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.footerContainer {
+	clear: both;
+	padding: 10px;
+	background-color: #999999;
+	color: white;
+	text-align: right;
+}
+
+
+/* These IDs will Override the Classes */
+#image-div {
+	text-align: center;
+	padding: 10px;
+}
+#image {
+	text-align: center;
+	max-width: 100%;
+}
